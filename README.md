@@ -72,6 +72,9 @@ I'll need to look into Eclipse css theming in the future.
 The colors used in this configuration are taken from the [gruvbox-dark-hard
 colorscheme by morhetz](https://github.com/morhetz/gruvbox).
 
+The [wallpaper](awesome/themes/gruvbox-dark-hard/wallpaper.png) is [Alone by
+memovasig](http://memovaslg.deviantart.com/art/Alone-353235628).
+
 The [layout icons for awesome](awesome/themes/gruvbox-dark-hard/icons) are
 taken and manually modified from the [powerarrow-dark theme](https://github.com/copycat-killer/awesome-copycats/tree/master/themes/powerarrow-dark)
 from the [Awesome WM Copycats by copycat-killer](https://github.com/copycat-killer/awesome-copycats).
