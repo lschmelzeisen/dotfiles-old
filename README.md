@@ -24,6 +24,8 @@ The [Dotbot](https://github.com/anishathalye/dotbot) install script can be used
 to automatically symlink the dotfiles in this repo:
 
 ```sh
+git clone https://github.com/lukasschmelzeisen/dotfiles
+cd dotfiles
 sudo ./install
 ./install
 ```
