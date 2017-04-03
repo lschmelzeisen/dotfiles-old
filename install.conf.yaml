@@ -1,7 +1,10 @@
-- clean: ['~']
+- clean: ["~"]
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
 
 - link:
+    /etc/bash.bashrc: bashrc
+    /etc/vimrc:
+    /etc/X11/xorg.conf.d/40-libinput.conf: X11/xorg.conf.d/40-libinput.conf
     ~/.gitconfig:
