@@ -59,6 +59,12 @@ theme together with the [Papirius](https://github.com/PapirusDevelopmentTeam/pap
 icon theme (Papirius supports fixing hardcoded tray icons with [Hardcode-Tray](https://github.com/bil-elmoussaoui/Hardcode-Tray),
 [see here for instructions](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme#hardcoded-tray-icons)).
 
+### JetBrains IDEs
+
+There is a [theme for JetBrains IDEs](https://github.com/lukasschmelzeisen/gruvbox-idea).
+Install using the `install.bash` file and active in your IDE via `File →
+Settings... → Editor → Colors & Fonts → Scheme → Gruvbox Dark Hard`.
+
 ### Eclipse
 
 There is an Eclipse color scheme in [eclipse-gruvbox-dark-hard.xml](eclipse-gruvbox-dark-hard.xml),
