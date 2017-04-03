@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="47566" name="gruvbox-dark-hard" modified="2017-04-03 01:00:00" author="Lukas Schmelzeisen" website="">
+    <foreground color="#EBDBB2" />
+    <background color="#1D2021" />
+    <selectionForeground color="#1D2021" />
+    <selectionBackground color="#EBDBB2" />
+    <currentLine color="#3C3836" />
+    <lineNumber color="#7C6F64" />
+    <searchResultIndication color="#FABD2F" />
+    <filteredSearchResultIndication color="#FE8019" />
+    <occurrenceIndication color="#504945" />
+    <writeOccurrenceIndication color="#504945" />
+    <findScope color="#FABD2F" />
+    <sourceHoverBackground color="#FABD2F" />
+    <singleLineComment color="#A89984" italic="true" />
+    <multiLineComment color="#A89984" italic="true" />
+    <commentTaskTag color="#FB4934" italic="true" />
+    <javadoc color="#A89984" italic="true" />
+    <javadocLink color="#A89984" italic="true" />
+    <javadocTag color="#B8BB26" italic="true" />
+    <javadocKeyword color="#8EC07C" italic="true" />
+    <class color="#FABD2F" bold="false" underline="false" strikethrough="false" />
+    <interface color="#FABD2F" />
+    <method color="#EBDBB2" />
+    <methodDeclaration color="#EBDBB2" bold="false" />
+    <bracket color="#BDAE93" />
+    <number color="#D3869B" />
+    <string color="#B8BB26" />
+    <operator color="#EBDBB2" />
+    <keyword color="#FE8019" bold="false" />
+    <annotation color="#83A598" />
+    <staticMethod color="#EBDBB2" />
+    <localVariable color="#EBDBB2" />
+    <localVariableDeclaration color="#EBDBB2" bold="false" />
+    <field color="#EBDBB2" />
+    <staticField color="#EBDBB2" />
+    <staticFinalField color="#83A598" />
+    <deprecatedMember color="#EBDBB2" underline="false" strikethrough="true" />
+    <deletionIndication color="#83A598" />
+    <enum color="#FABD2F" />
+    <inheritedMethod color="#EBDBB2" />
+    <abstractMethod color="#EBDBB2" />
+    <parameterVariable color="#EBDBB2" />
+    <typeArgument color="#83C07C" />
+    <typeParameter color="#83C07C" />
+    <constant color="#83A598" />
+</colorTheme>

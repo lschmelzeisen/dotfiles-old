@@ -1,10 +1,19 @@
-- clean: ["~"]
+- defaults:
+    link:
+        create: true # Create nested folders when necessary
+        relink: true # Relink invalid symlinks
+
+- clean: ["~", "~/.config"]
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
 
 - link:
+    /etc/X11/xorg.conf.d/40-libinput.conf: etc/X11/xorg.conf.d/40-libinput.conf
     /etc/bash.bashrc: bashrc
-    /etc/vimrc:
-    /etc/X11/xorg.conf.d/40-libinput.conf: X11/xorg.conf.d/40-libinput.conf
-    ~/.gitconfig:
+    /etc/vimrc: vimrc
+    ~/.config/awesome: awesome
+    ~/.config/rofi/config: rofi
+    ~/.gitconfig: gitconfig
+    ~/.local/share/xfce4/terminal/colorschemes/base16-gruvbox-dark-hard.theme: xfce4-terminal.theme
+    ~/.screenlayout: screenlayout
