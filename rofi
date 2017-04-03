@@ -4,7 +4,7 @@ rofi.location: 0
 rofi.bw: 0
 rofi.line-padding: 6
 rofi.line-margin: 3
-rofi.font: Misc Tamsyn Regular 15
+rofi.font: Tamzen 16
 rofi.separator-style: none
 rofi.hide-scrollbar: true
 rofi.terminal: xfce4-terminal

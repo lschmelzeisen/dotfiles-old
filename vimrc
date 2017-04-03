@@ -61,7 +61,7 @@ set smartindent
 set guioptions-=m               " Hide menubar
 set guioptions-=T               " Hide toolbar
 set guioptions-=r               " Hide scrollbar
-set guifont=Misc\ Tamsyn\ 11    " Font
+set guifont=TamzenForPowerline\ 11  "Font
 
 " --- Saving -------------------------------------------------------------------
 set encoding=utf8               " Set UTF-8 as standard encoding
