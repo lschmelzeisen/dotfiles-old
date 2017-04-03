@@ -39,7 +39,8 @@ should go.
 ### vim
 
 After first installation and everytime the plugin section in [vimrc](vimrc) is
-changed `:PlugInstall` has to be executed in vim.
+changed `:PlugInstall` has to be executed in vim as root (because other users
+can't write to `/usr/share/vim/vimfiles/plugged`).
 
 ### xfce4-terminal
 
