@@ -46,7 +46,7 @@ can't write to `/usr/share/vim/vimfiles/plugged`).
 
 ### xfce4-terminal
 
-In order to active the colorscheme in xfce4-terminal, do: `Right-click →
+In order to activate the colorscheme in xfce4-terminal, do: `Right-click →
 Preferences... → Colors → Load Presets... → Base-16 Gruvbox dark, hard`.
 
 To get the correct font, do: `Right-click → Preferences... → Appearance → Font
