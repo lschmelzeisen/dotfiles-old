@@ -11,7 +11,7 @@ local theme                                     = {}
 theme.dir                                       = os.getenv("HOME") .. "/.config/awesome/themes/gruvbox-dark-hard"
 theme.wallpaper                                 = theme.dir .. "/wallpaper.png"
 theme.awesome_icon                              = theme.dir .. "/icons/awesome.png"
-theme.font                                      = "Misc Tamsyn Regular 10"
+theme.font                                      = "Tamzen 10"
 
 theme.colors                                    = {}
 theme.colors.bg1                                = "#1D2021"
