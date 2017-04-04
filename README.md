@@ -63,7 +63,7 @@ icon theme (Papirius supports fixing hardcoded tray icons with [Hardcode-Tray](h
 
 ### JetBrains IDEs
 
-There is a [theme for JetBrains IDEs](https://github.com/lukasschmelzeisen/gruvbox-idea).
+There is a [theme for JetBrains IDEs](https://github.com/caleb/gruvbox-idea).
 Install using the `install.bash` file and active in your IDE via `File →
 Settings... → Editor → Colors & Fonts → Scheme → Gruvbox Dark Hard`.
 
