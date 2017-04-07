@@ -94,7 +94,7 @@ set nowrap                      " Dont wrap overlong lines
 set showmatch                   " Highlight matching brackets
 "set spell                      " Enable spell checking
 set spelllang=en,de             " Spell checking in English and German
-let g:indentLine_char = '│'     " Indentation character
+let g:indentLine_char='│'       " Indentation character
 " Enable modeline (what is this?)
 set modeline
 set modelines=5

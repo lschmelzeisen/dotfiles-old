@@ -15,5 +15,6 @@
     ~/.config/awesome: awesome
     ~/.config/rofi/config: rofi
     ~/.gitconfig: gitconfig
+    ~/.ideavimrc: ideavimrc
     ~/.local/share/xfce4/terminal/colorschemes/base16-gruvbox-dark-hard.theme: xfce4-terminal.theme
     ~/.screenlayout: screenlayout
