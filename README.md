@@ -34,7 +34,8 @@ Unfortunately, the line with `sudo` is necessary because else we can't create
 symlinks in the `/etc` directory (this will also create dotfile symlinks in
 root's home directory!).
 
-If you dont wan't to perform automated installation, have a look at the
+If you dont wan't to perform automated installation (why would you want to copy
+*all* my dotfiles?), have a look at the
 [Dotbot configuration file](install.conf.yaml) to find out where each file
 should go.
 

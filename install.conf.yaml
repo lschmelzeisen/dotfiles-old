@@ -9,6 +9,8 @@
     - [git submodule update --init --recursive, Installing submodules]
 
 - link:
+    # Syntax for creating symlinks is:
+    # <config file>: <file in repo>
     /etc/X11/xorg.conf.d/40-libinput.conf: etc/X11/xorg.conf.d/40-libinput.conf
     /etc/bash.bashrc: bashrc
     /etc/vimrc: vimrc
