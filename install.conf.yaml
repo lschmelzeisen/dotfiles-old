@@ -15,6 +15,7 @@
     /etc/bash.bashrc: bashrc
     /etc/vimrc: vimrc
     ~/.config/awesome: awesome
+    ~/.config/compton.conf: compton.conf
     ~/.config/rofi/config: rofi
     ~/.gitconfig: gitconfig
     ~/.ideavimrc: ideavimrc
