@@ -10,6 +10,7 @@ are:
 - [awesome](https://awesomewm.org/)
     - [lain](https://github.com/copycat-killer/lain) for an additional tiling
       layout and its separator widget.
+- [compton](https://github.com/chjj/compton)
 - [git](https://git-scm.com/)
 - [rofi](https://davedavenport.github.io/rofi/)
 - [vim](http://www.vim.org/)
