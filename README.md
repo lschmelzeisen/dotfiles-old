@@ -1,5 +1,7 @@
 # Lukas Schmelzeisen's dotfiles
 
+[![screenshot of the configuration](screenshot.png)](screenshot.png)
+
 ## Dependencies
 
 The configured programs together with the dependencies of their configuration
