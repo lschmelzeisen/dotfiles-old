@@ -12,10 +12,14 @@ are:
       layout and its separator widget.
 - [compton](https://github.com/chjj/compton)
 - [git](https://git-scm.com/)
+- [JetBrains IDEs](https://www.jetbrains.com/products.html?fromMenu#type=ide)
+    - [ideavim plugin](https://github.com/JetBrains/ideavim) for vim-like
+      keybinds
 - [rofi](https://davedavenport.github.io/rofi/)
 - [vim](http://www.vim.org/)
     - [vim-plug](https://github.com/junegunn/vim-plug) for plugin management.
 - [xfce4-terminal](https://launchpad.net/xfce4-terminal)
+- [zathura](https://pwmt.org/projects/zathura/)
 
 You'll also need the [Tamzen font](https://github.com/sunaku/tamzen-font).
 
