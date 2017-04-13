@@ -17,6 +17,7 @@
     ~/.config/awesome: awesome
     ~/.config/compton.conf: compton.conf
     ~/.config/rofi/config: rofi
+    ~/.config/xfce4/terminal/terminalrc: xfce4-terminalrc
     ~/.config/zathura/zathurarc: zathurarc
     ~/.gitconfig: gitconfig
     ~/.ideavimrc: ideavimrc

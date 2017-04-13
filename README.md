@@ -48,16 +48,6 @@ After first installation and everytime the plugin section in [vimrc](vimrc) is
 changed `:PlugInstall` has to be executed in vim as root (because other users
 can't write to `/usr/share/vim/vimfiles/plugged`).
 
-### xfce4-terminal
-
-In order to activate the colorscheme in xfce4-terminal, do: `Right-click →
-Preferences... → Colors → Load Presets... → Base-16 Gruvbox dark, hard`.
-
-To get the correct font, do: `Right-click → Preferences... → Appearance → Font
-→ TamzenForPowerline Regular 11`.
-
-Personally, I also disable menubar, toolbar, and scrollbar.
-
 ## Theme
 
 I use the [VimixDark](https://github.com/vinceliuice/vimix-gtk-themes) GTK2/3
@@ -92,9 +82,9 @@ The [layout icons for awesome](awesome/themes/gruvbox-dark-hard/icons) are
 taken and manually modified from the [powerarrow-dark theme](https://github.com/copycat-killer/awesome-copycats/tree/master/themes/powerarrow-dark)
 from the [Awesome WM Copycats by copycat-killer](https://github.com/copycat-killer/awesome-copycats).
 
-The  [xfce4-terminal colorscheme](xfce4-terminal.theme) is automatically
-generated via the [base16](http://chriskempson.com/projects/base16/) project
-from the colorscheme [base16-gruvbox-dark-hard by dawikur](https://github.com/dawikur/base16-gruvbox-scheme)
+The  [xfce4-terminal colors](https://github.com/afg984/base16-xfce4-terminal/blob/master/colorschemes/base16-gruvbox-dark-hard.theme)
+were automatically generated via the [base16](http://chriskempson.com/projects/base16/)
+project from the colorscheme [base16-gruvbox-dark-hard by dawikur](https://github.com/dawikur/base16-gruvbox-scheme)
 and template [xfce4-terminal by afg984](https://github.com/afg984/base16-xfce4-terminal).
 
 ## License
