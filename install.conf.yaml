@@ -17,6 +17,7 @@
     ~/.config/awesome: awesome
     ~/.config/compton.conf: compton.conf
     ~/.config/rofi/config: rofi
+    ~/.config/zathura/zathurarc: zathurarc
     ~/.gitconfig: gitconfig
     ~/.ideavimrc: ideavimrc
     ~/.local/share/xfce4/terminal/colorschemes/base16-gruvbox-dark-hard.theme: xfce4-terminal.theme

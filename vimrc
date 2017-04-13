@@ -35,6 +35,7 @@ call plug#begin('/usr/share/vim/vimfiles/plugged')
     Plug 'morhetz/gruvbox'      " gruvbox color scheme
     Plug 'Yggdroot/IndentLine'  " Indentation lines
     Plug 'vim-airline/vim-airline'  " Alternative status-/tabline
+    Plug 'lervag/vimtex'        " LaTeX plugin
 call plug#end()
 
 " vim-plug automatically executes the following:
@@ -60,7 +61,8 @@ set smartindent
 " --- GUI ----------------------------------------------------------------------
 set guioptions-=m               " Hide menubar
 set guioptions-=T               " Hide toolbar
-set guioptions-=r               " Hide scrollbar
+set guioptions-=r               " Hide right-hand scrollbar
+set guioptions-=L               " Hide left-hand scrollbar
 set guifont=TamzenForPowerline\ 11  "Font
 
 " --- Saving -------------------------------------------------------------------
@@ -105,7 +107,25 @@ autocmd GUIENTER * set t_vb=
 set timeoutlen=500
 
 " --- File Specific ------------------------------------------------------------
-" Set indent width to 2 spaces for XML files
+" --- (La)TeX
+let g:tex_flavor='latex'        " Enable LaTeX-specific features
+let g:tex_conceal=''            " Disable concealed character
+" Set indent width to 2 spaces
+autocmd FileType tex setlocal shiftwidth=2 tabstop=2
+" Enable syntax highlighting on *.cls files
+au BufNewFile,BufRead *.cls set filetype=tex
+" vimtex plugin
+let g:vimtex_compiler_method='latexmk'  " Use latexmk for compilation
+let g:vimtex_compiler_latexmk={
+\   'backend' : 'jobs',
+\   'callback' : 1,
+\   'continuous' : 0,
+\}
+let g:vimtex_index_split_pos='full' " Open TOC view fullscreen and not in split
+let g:vimtex_view_method='zathura'  " Use Zathura for viewing
+" --- XML
+" Set indent width to 2 spaces
 autocmd FileType xml setlocal shiftwidth=2 tabstop=2
-" Set syntax hightlight to prolog on *.pro files
+" --- Prolog
+" Enable syntax hightlighting on *.pro files
 au BufNewFile,BufRead *.pro set filetype=prolog

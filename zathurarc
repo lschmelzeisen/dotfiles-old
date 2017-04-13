@@ -1,0 +1,51 @@
+# --- Gui ----------------------------------------------------------------------
+set guioptions "shv"                    # Enable statusbar and both scrollbars
+set font "Tamzen 10"
+set scroll-page-aware "true"
+set smooth-scroll "true"
+# Enables pasting copied contents via Ctrl+v
+set selection-clipboard clipboard
+# Padding around Statusbar
+set statusbar-h-padding 6
+set statusbar-v-padding 0
+
+# --- Colors -------------------------------------------------------------------
+# Statusbar (contains filename and page number)
+set statusbar-fg            "#AB9984"
+set statusbar-bg            "#1D2021"
+# Inputbar (shows when entering commands)
+set inputbar-fg             "#AB9984"
+set inputbar-bg             "#1D2021"
+# Recolor
+set recolor-darkcolor       "#AB9984"
+set recolor-lightcolor      "#1D2021"
+# Index
+set index-fg                "#AB9984"
+set index-bg                "#1D2021"
+set index-active-fg         "#1D2021"
+set index-active-bg         "#83A598"
+# Scrollbar and in small space between pages
+set default-fg              "#AB9984"
+set default-bg              "#1D2021"
+# I don't know whether or where these are applied
+set completion-fg           "#FF0000"
+set completion-bg           "#0000FF"
+set completion-group-fg     "#FF0000"
+set completion-group-bg     "#0000FF"
+set completion-highlight-fg "#FF0000"
+set completion-highlight-bg "#0000FF"
+set notification-bg         "#FF0000"
+set notification-fg         "#0000FF"
+set notification-error-bg   "#FF0000"
+set notification-error-fg   "#0000FF"
+set notification-warning-bg "#FF0000"
+set notification-warning-fg "#0000FF"
+set tabbar-fg               "#AB9984"
+set tabbar-bg               "#1D2021"
+set tabbar-focus-fg         "#AB9984"
+set tabbar-focus-bg         "#1D2021"
+# Link highlight and non-selected search results
+set highlight-color         "#83A598"
+# Selected search result
+set highlight-active-color  "#FB4934"
+set highlight-transparency  0.4
