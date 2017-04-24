@@ -52,6 +52,16 @@ After first installation and everytime the plugin section in [vimrc](vimrc) is
 changed `:PlugInstall` has to be executed in vim as root (because other users
 can't write to `/usr/share/vim/vimfiles/plugged`).
 
+### Manual Settings
+
+This repo also contains some program settings which can not be installed
+automatically.
+These are:
+
+- [JabRef](https://www.jabref.org/) - [settings](jabref.xml)
+- [MusicBrainz Picard](https://picard.musicbrainz.org/) -
+[settings](MusicBrainz%20Picard.txt)
+
 ## Theme
 
 I use the [VimixDark](https://github.com/vinceliuice/vimix-gtk-themes) GTK2/3

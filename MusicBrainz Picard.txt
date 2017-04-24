@@ -1,0 +1,11 @@
+Filename for images: "cover"
+
+Name file like this:
+
+$if2(%albumartist%,%artist%)/
+$if($ne($lower(%albumartist%),various artists),
+  $if($inmulti(%releasetype%,live),live/,
+    $if($inmulti(%releasetype%,single),singles/,
+      $if($inmulti(%releasetype%,compilation),compilations/))))
+$if($ne(%albumartist%,),$if(%date%,$left(%date%,4)) %album%/)
+$if($gt(%totaldiscs%,1),%discnumber%-,)$if($ne(%albumartist%,),$num(%tracknumber%,2) ,)$if(%_multiartist%,%artist% - ,)%title%
