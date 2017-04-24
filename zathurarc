@@ -49,3 +49,6 @@ set highlight-color         "#83A598"
 # Selected search result
 set highlight-active-color  "#FB4934"
 set highlight-transparency  0.4
+
+# --- Keybinds -----------------------------------------------------------------
+map <C-s> toggle_statusbar
