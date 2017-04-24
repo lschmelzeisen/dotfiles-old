@@ -35,6 +35,7 @@ call plug#begin('/usr/share/vim/vimfiles/plugged')
     Plug 'morhetz/gruvbox'      " gruvbox color scheme
     Plug 'Yggdroot/IndentLine'  " Indentation lines
     Plug 'vim-airline/vim-airline'  " Alternative status-/tabline
+    Plug 'tpope/vim-commentary' " Comment stuff out.
     Plug 'lervag/vimtex'        " LaTeX plugin
 call plug#end()
 
