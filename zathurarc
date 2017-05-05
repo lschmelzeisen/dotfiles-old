@@ -1,5 +1,5 @@
 # --- Gui ----------------------------------------------------------------------
-set guioptions "shv"                    # Enable statusbar and both scrollbars
+set guioptions "hv"                     # Enable only the scrollbars
 set font "Tamzen 10"
 set scroll-page-aware "true"
 set smooth-scroll "true"
