@@ -16,6 +16,7 @@
     /etc/vimrc: vimrc
     ~/.config/awesome: awesome
     ~/.config/compton.conf: compton.conf
+    ~/.config/matplotlib: matplotlib
     ~/.config/rofi/config: rofi
     ~/.config/xfce4/terminal/terminalrc: xfce4-terminalrc
     ~/.config/zathura/zathurarc: zathurarc

@@ -15,6 +15,7 @@ are:
 - [JetBrains IDEs](https://www.jetbrains.com/products.html?fromMenu#type=ide)
     - [ideavim plugin](https://github.com/JetBrains/ideavim) for vim-like
       keybinds
+- [matplotlib](https://matplotlib.org/)
 - [rofi](https://davedavenport.github.io/rofi/)
 - [vim](http://www.vim.org/)
     - [vim-plug](https://github.com/junegunn/vim-plug) for plugin management.

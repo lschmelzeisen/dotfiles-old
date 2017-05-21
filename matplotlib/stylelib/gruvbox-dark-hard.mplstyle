@@ -1,0 +1,20 @@
+lines.color: EBDBB2
+patch.edgecolor: EBDBB2
+
+text.color: EBDBB2
+
+axes.facecolor: 1D2021
+axes.edgecolor: EBDBB2
+axes.labelcolor: EBDBB2
+axes.prop_cycle: cycler('color', ['FB4934', 'B8BB26', 'FABD2F', '83A598', 'D3869B', '8EC07C', 'FE8019'])
+
+xtick.color: EBDBB2
+ytick.color: EBDBB2
+
+grid.color: EBDBB2
+
+figure.facecolor: 1D2021
+figure.edgecolor: 1D2021
+
+savefig.facecolor: 1D2021
+savefig.edgecolor: 1D2021
