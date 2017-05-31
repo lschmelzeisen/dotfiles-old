@@ -106,6 +106,9 @@ set noerrorbells
 set novisualbell
 autocmd GUIENTER * set t_vb=
 set timeoutlen=500
+" Persistent Undo
+set undofile
+set undodir=$HOME/.vim/undo
 
 " --- File Specific ------------------------------------------------------------
 " --- (La)TeX
