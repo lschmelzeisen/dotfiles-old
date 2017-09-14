@@ -85,6 +85,10 @@ But this only changes the main editor window and has some bugs (e.g., bright
 line separating code from gutter).
 I'll need to look into Eclipse css theming in the future.
 
+### Visual Studio
+
+There is a [theme for Visual Studio](https://github.com/flyingfisch/VSGruvbox) and a [Vim plugin](https://github.com/jaredpar/VsVim/).
+
 ### Other
 
 - There is a Windows command prompt theme in
